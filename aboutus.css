@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper{
+	width: 1280px ;
+	height: 1024px ;
+	
+}
+
+#barra {
+  position: absolute;
+  left: 550px;
+  top: 68px;
+  width: 1000px;
+  height: 75px;
+  background: #002155;
+}
+
+#barra ul{
+list-style: none;
+text-align: center;
+	
+}
+#barra ul li {
+	border-left: solid;
+	border-left-width: 3px;
+	border-left-color: #bfa16c
+		
+}
+
+
+#barra ul li {
+	display: inline-block;
+	text-align: center;
+	width: 180px;
+	
+}
+ 
+#barra ul li a{
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Century";
+  color: rgb(255, 255, 255);
+  
+  
+}
+
+#barra ul li a:hover{
+	color: #bfa16c;
+
+}
+
+#menu img {
+  position: absolute;
+  left: 28px;
+  top: 26px;
+  width: 296px;
+  height: 158px;
+  z-index: 23;
+	
+}
+
+#contenido {
+	background-image: url("calala.png");
+	 width: 1280px;
+     height: 855px;
+	 left: 130px;
+     top: 231px;
+	position: absolute;
+
+}
+
+#contenido h5{
+	font-size: 48px;
+  font-family: "Corbel";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  position: absolute;
+	left: 400px;
+}
+
+#text {
+  background:#FFFFFF ;
+  opacity: 65%;
+  position: absolute;
+  left: 90px;
+  top: 200px;
+  width: 1090px;
+  height: 600px;
+  z-index: 87;
+	
+}
+
+#text p {
+  font-size: 24px;
+  font-family: "Century";
+  color: rgb(0, 0, 0);
+  line-height: 1.125;
+  text-align: justify;
+  padding: 40px;
+  position: absolute;
+	left: 5px;
+	top: 50px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+#footer {
+  position: absolute;
+  top: 1350px;
+  width: 1586px;
+  height: 324px;
+  z-index: 3;
+ background-color: #002155;
+}
+
+#facebook img {
+	position: absolute;
+  left: 55px;
+  top: 240px;
+  width: 44px;
+  height: 44px;
+  z-index: 9;
+}
+ 
+#twitter img {
+	position: absolute;
+  left: 120px;
+  top: 240px;
+  width: 44px;
+  height: 44px;
+  z-index: 9;
+}
+
+#instagram img {
+	position: absolute;
+  left: 190px;
+  top: 240px;
+  width: 44px;
+  height: 44px;
+  z-index: 9;
+}
+
+#footer h6{
+  font-size: 37px;
+  font-family: "Corbel";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.73;
+  padding-left: 55px;
+  
+}
+
+#footer h5{
+  font-size: 37px;
+  font-family: "Corbel";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.73;
+  left: 1100px;
+	top: 20px;
+	position: absolute
+  
+}
+
+
+#footer p{
+font-size: 18px;
+  font-family: "Corbel";
+  color: rgb(255, 255, 255);
+  line-height: 2;
+  position: absolute;
+  left: 55px;
+	top: 100px;
+}
+
+#reserve img{
+	 position: absolute;
+  left: 1100px;
+  top: 130px;
+  z-index: 7;
+}
+
+	
+	
